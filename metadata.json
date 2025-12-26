@@ -1,0 +1,7 @@
+{
+  "name": "Story World Reader",
+  "description": "A kid-friendly storybook reader for PDFs with audio narration support.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

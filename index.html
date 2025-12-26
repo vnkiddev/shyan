@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Story World Reader</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Fredoka', sans-serif;
+        background-color: #f0f9ff;
+        margin: 0;
+        overflow-x: hidden;
+      }
+      .page-turn-enter {
+        opacity: 0;
+        transform: translateX(100%);
+      }
+      .page-turn-enter-active {
+        opacity: 1;
+        transform: translateX(0);
+        transition: all 400ms ease-out;
+      }
+      .page-turn-exit {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      .page-turn-exit-active {
+        opacity: 0;
+        transform: translateX(-100%);
+        transition: all 400ms ease-out;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
