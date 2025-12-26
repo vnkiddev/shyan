@@ -1,0 +1,11 @@
+[
+  {
+    "id": "my-first-story",
+    "title": "The Brave Little Squirrel",
+    "description": "An epic tale of a squirrel who found the golden acorn.",
+    "pdf": "/books/my-first-story/book.pdf",
+    "cover": "/books/my-first-story/cover.jpg",
+    "audioPattern": "/books/my-first-story/audio/{page}.mp3",
+    "audioPad": 3
+  }
+]
